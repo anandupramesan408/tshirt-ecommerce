@@ -72,7 +72,7 @@ export default function ProfilePage() {
           </div>
           <div>
             <label className="label">Email</label>
-            <input {...register('email')} type="email" className="input" disabled className="input bg-stone-50 text-stone-400 cursor-not-allowed" />
+            <input {...register('email')} type="email" className="input bg-stone-50 text-stone-400 cursor-not-allowed" disabled />
           </div>
           <div>
             <label className="label">Phone</label>
